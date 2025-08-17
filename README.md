@@ -1,4 +1,4 @@
-# C## (C‑sharp‑sharp) — toy language
+# C## (C‑sharp‑sharp) — Buggy Language (i actually asked chatgpt for this readme.md fr fr)
 An **educational programming language** that blends a tiny C++/C#-like syntax and executes on a lightweight interpreter written in Python.
 
 > ⚠️ This is a toy for learning. It implements a compact subset: variables, functions, control flow, lists, `Console.WriteLine`, and a few C#-style niceties (`foreach`, `var`, `List<T>`). No real static typing yet.
