@@ -1,0 +1,22 @@
+using System;
+
+int Main() {
+  var sum = 0;
+  for (var i = 0; i < 5; i = i + 1) {
+    sum = sum + i;
+  }
+  Console.WriteLine("sum", sum);
+
+  var n = 4;
+  while (n > 0) {
+    Console.WriteLine("n", n);
+    n = n - 1;
+  }
+
+  if (sum > 5) {
+    Console.WriteLine("big");
+  } else {
+    Console.WriteLine("small");
+  }
+  return 0;
+}

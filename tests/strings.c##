@@ -1,0 +1,2 @@
+using System;
+int Main() { Console.WriteLine("a"+"b"); return 0; }

@@ -1,0 +1,6 @@
+using System;
+
+int Main() {
+  Console.WriteLine("Hello from C##!");
+  return 0;
+}

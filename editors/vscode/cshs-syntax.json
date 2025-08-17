@@ -1,0 +1,36 @@
+{
+  "name": "C##",
+  "scopeName": "source.cshs",
+  "patterns": [
+    {
+      "name": "keyword.control.cshs",
+      "match": "\\b(if|else|while|for|foreach|return|namespace|using)\\b"
+    },
+    {
+      "name": "storage.type.cshs",
+      "match": "\\b(var|int|float|string|bool|List)\\b"
+    },
+    {
+      "name": "support.class.cshs",
+      "match": "\\bConsole\\b"
+    },
+    {
+      "name": "constant.numeric.cshs",
+      "match": "\\b\\d+(?:\\.\\d+)?\\b"
+    },
+    {
+      "name": "string.quoted.double.cshs",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "comment.line.cshs",
+      "match": "//.*$"
+    }
+  ]
+}

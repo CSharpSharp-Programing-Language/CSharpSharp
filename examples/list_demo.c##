@@ -1,0 +1,14 @@
+using System;
+
+int Main() {
+  var xs = List();
+  xs.push_back(1);
+  xs.push_back(2);
+  xs.push_back(3);
+
+  foreach (var n in xs) {
+    Console.WriteLine(n);
+  }
+  Console.WriteLine("size =", xs.size());
+  return 0;
+}
